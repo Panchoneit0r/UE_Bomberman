@@ -156,7 +156,7 @@ void ATrueMenuMPlayerCharacter::OnCreateSessionComplete(FName SessionName, bool 
 		UWorld* World = GetWorld();
 		if(World)
 		{
-			World->ServerTravel(FString("/Game/ThirdPerson/Maps/Lobby?listen"));
+			World->ServerTravel(FString("/Game/Bishop/BombermanMap?listen"));
 		}
 		else
 		{
